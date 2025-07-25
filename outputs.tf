@@ -1,5 +1,5 @@
 output "aws_instance_arn" {
-description = "The AWS Resource Name for the instance."
+description = "The AWS Resource Name for the instances."
 value = aws_instance.hello_world.arn
 
 }
